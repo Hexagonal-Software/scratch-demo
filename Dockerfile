@@ -28,6 +28,6 @@ WORKDIR /scratch-demo
 ARG https_port=443
 EXPOSE 443/tcp
 
-USER 1000
+USER 1000:1000
 
 ENTRYPOINT ["/scratch-demo/demoexe"]
